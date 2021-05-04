@@ -11,5 +11,6 @@ blocks:
         - name: 'Job #1'
           commands:
             - checkout
+            - yarn
             - ./node_modules/.bin/cypress install --force
             - yarn start & ./node_modules/.bin/cypress run
